@@ -1,3 +1,4 @@
-from .process_input import see_arguments
+from .process_input import get_folder_path
 
-see_arguments()
+folder_path = get_folder_path()
+print(folder_path)

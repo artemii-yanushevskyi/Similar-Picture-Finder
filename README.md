@@ -9,10 +9,10 @@ __A console tool which finds similar images in a given folder and prints similar
     * Create `SimilarPictureFinder.py` and make it executable\* 
     * Test it using bash script `./SimilarPictureFinder.py testinput`, should output `['./SimilarPictureFinder.py', 'testinput']`
 * Command line input processing
-    * Write function `dispatch` using Argparse module that has the following functionality
+    * Write function `get_folder_path` using Argparse module that has the following functionality
         * throws an error if there is folder path missing
         * returns the folder path if present
-    * Tests for function `dispatch`
+    * Test function `get_folder_path`
 * Learning to operate with images
     * Image to numpy array
     * Viewing and saving numpy array as an image
