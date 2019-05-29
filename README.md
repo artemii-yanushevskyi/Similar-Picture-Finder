@@ -19,6 +19,9 @@ __A console tool which finds similar images in a given folder and prints similar
 * Find same images
     * Write pixel by pixel comparison
     * Test on the dataset `test_same`
+* Image Convolutions
+    * Blur
+
 
 \* first line of the file should be `#! env/bin/python` and run `chmod +x SimilarPictureFinder.py`
 
