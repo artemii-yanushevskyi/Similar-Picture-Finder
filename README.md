@@ -1,5 +1,10 @@
 # Similar Image Finder
-__A console tool which finds similar images in a given folder and prints similar pairs.__
+
+A console application that finds duplicate photos in a given directory.
+
+# Usage
+
+    ./SimilarPictureFinder.py --path path/to/image_dir
 
 # Mini Scrum
 
@@ -40,3 +45,14 @@ Create virtual environment
 Test the package
 
     python -m unittest discover tests
+    
+    
+# To Do
+
+* Finding modified photos. Apply the following, one after another 
+    * Resized - easy
+    * Blurred - use the Steepest Descent method on the Blur Value. Discovering if it is possible to “approximate” one image to another.
+    * Noise - try to blur both images and apply previous step.
+* Similar (from the same scene)
+    * Apply some metrics based on number of features matched
+    * Gradient descent on scale, vertical and horizontal rotation, x and y shift, and angle rotation. Perhaps some other parameters.
