@@ -25,3 +25,18 @@ __A console tool which finds similar images in a given folder and prints similar
 
 \* first line of the file should be `#! env/bin/python` and run `chmod +x SimilarPictureFinder.py`
 
+# Deployment
+
+Create virtual environment
+
+    python3.7 -m virtualenv env
+    source env/bin/activate
+    # check
+    python --version
+    # should be 3.7
+    # restore requirements
+    pip install -r requirements.txt
+
+Test the package
+
+    python -m unittest discover tests
